@@ -14,6 +14,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
+import { CoursesCardListComponent } from './courses-card-list/courses-card-list.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     TopMenuComponent,
     HomeComponent,
+    CoursesCardListComponent,
   ],
   imports: [
     BrowserModule,

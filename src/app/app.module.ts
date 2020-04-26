@@ -7,11 +7,20 @@ import {MatButtonModule} from '@angular/material/button';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatListModule} from '@angular/material/list';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,6 +28,12 @@ import {MatMenuModule} from '@angular/material/menu';
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
+    MatToolbarModule,
+    MatListModule,
+    MatSidenavModule,
+    MatTabsModule,
+    MatCardModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
